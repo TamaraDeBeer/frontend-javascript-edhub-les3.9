@@ -5,10 +5,9 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
-
-
-
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!");
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die tijdens iedere herhaling de waarde van i logt in de zin: "De waarde van i is [nummer]"
@@ -19,9 +18,9 @@
 // De waarde van i is: 3
 // De waarde van i is: 4
 // ==========================================
-
-
-
+for (let i = 0; i < 5; i++) {
+    console.log("De waarde van i is: " + i);
+}
 
 
 // ==========================================
@@ -37,9 +36,9 @@
 // 9
 // 10
 // ==========================================
-
-
-
+for (let i = 2; i < 11; i++) {
+    console.log(i);
+}
 
 
 // ==========================================
@@ -55,10 +54,9 @@
 // 63
 // 70
 // ==========================================
-
-
-
-
+for (let i = 2; i < 11; i++) {
+    console.log(i*7);
+}
 
 // ==========================================
 // Opdracht 3c. Gebruik dezelfde for-loop uit 3b, maar zorg dat de volgende zin wordt gelogd: "Wanneer een hond [x] jaar is, staat dat gelijk aan [y] mensenjaren." Tip: 1 hondenjaar staat gelijk aan 7 mensenjaren.
@@ -73,9 +71,9 @@
 // Wanneer een hond 9 jaar is, staat dat gelijk aan 63 mensenjaren.
 // Wanneer een hond 10 jaar is, staat dat gelijk aan 70 mensenjaren.
 // ==========================================
-
-
-
+for (let i = 2; i < 11; i++) {
+    console.log("Wanneer een hond " + i + " jaar is, staat dat gelijk aan " + i*7 + " mensenjaren.");
+}
 
 
 // ==========================================
@@ -91,7 +89,13 @@
 // Tip 1: Het is mogelijk om beslissingsstructuren te gebruiken binnen de {} van een for-loop!
 // Tip 2: Een getal is EVEN als je het deelt door 2 en er blijft niets over... Doet dit nog geen belletje rinkelen? Google dan eens naar 'MDN webdocs remainder operator'.
 // ==========================================
-
+for (let i = 0; i < 16; i++) {
+    if (i%2) {
+        console.log(i + " is oneven");
+    } else {
+        console.log(i + " is even");
+    }
+}
 
 
 
